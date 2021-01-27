@@ -8,6 +8,12 @@ import time
 ##### Neals updates
 MARKDOWN_EXTENSIONS = ['fenced_code', 'codehilite', 'extra']
 
+GITHUB_DEPLOY_BRANCH = 'src'
+GITHUB_SOURCE_BRANCH = 'site'
+# git remote get-url origin
+GITHUB_REMOTE_NAME = 'https://github.com/nagordon/nickolitest.git'
+GITHUB_COMMIT_SOURCE = True
+
 # ! Some settings can be different in different languages.
 # ! A comment stating (translatable) is used to denote those.
 # ! There are two ways to specify a translatable setting:
