@@ -8,8 +8,8 @@ import time
 ##### Neals updates
 MARKDOWN_EXTENSIONS = ['fenced_code', 'codehilite', 'extra']
 
-GITHUB_DEPLOY_BRANCH = 'src'
-GITHUB_SOURCE_BRANCH = 'site'
+GITHUB_DEPLOY_BRANCH = 'gh-pages'
+GITHUB_SOURCE_BRANCH = 'src'
 # git remote get-url origin
 GITHUB_REMOTE_NAME = 'https://github.com/nagordon/nickolitest.git'
 GITHUB_COMMIT_SOURCE = True

@@ -34,3 +34,4 @@ nikola new_post -f markdown
 
 nikola new_post -f ipynb
 
+nikola github_deploy
